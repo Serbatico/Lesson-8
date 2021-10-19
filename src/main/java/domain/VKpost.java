@@ -7,8 +7,8 @@ public class VKpost {
     private TimeAfter24Hours timeAfter24Hours; // Время спустя сутки
     private String description; // Описание содержимого статьи/поста
     private String postLink; // Ссылка на модальное окно с постом
-    private Likes likes; // Количество людей которым "понравился пост"
-    private Reposts reposts; // Количество репостов
+    private LikesInfo likesInfo; // Количество людей которым "понравился пост"
+    private Repost repost; // Количество репостов
     private int views; // Количество просомотров
     private MostInteresting mostInteresting; // Кнопка отображающая наиболее интересные коментарии
     private String userName; // ИмяФамилия коментатора

@@ -1,6 +1,6 @@
 package domain;
 
-public class Likes {
-    private int likes;
+public class LikesInfo {
+    private int likesInfo;
     private boolean likesAmount;
 }
